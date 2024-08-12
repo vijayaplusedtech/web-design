@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Working with Tables</title>
+    <style>
+      * {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      }
+
+      table,
+      tr,
+      th,
+      td {
+        border: 1px solid #333;
+        border-collapse: collapse;
+      }
+
+      th,
+      td {
+        /* padding > top, right, bottom, left */
+        padding: 5px 10px;
+        text-align: center;
+        min-width: 50px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- table > tr > th > td > thead > tbody > tfoot + caption + colspan + rowspan -->
+
+    <table>
+      <caption>
+        Lorem ipsum dolor sit amet.
+      </caption>
+      <thead>
+        <tr>
+          <th>Sr No</th>
+          <th>Student Name</th>
+          <th>Course</th>
+          <th>Contact</th>
+          <th>eMail ID</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>01</td>
+          <td>Lorem, ipsum.</td>
+          <td>Lorem, ipsum dolor.</td>
+          <td>9876543210</td>
+          <td>mail@mail.com</td>
+        </tr>
+        <tr>
+          <td>02</td>
+          <td>Lorem, ipsum.</td>
+          <td>Lorem, ipsum dolor.</td>
+          <td>9876543210</td>
+          <td>mail@mail.com</td>
+        </tr>
+        <tr>
+          <td>03</td>
+          <td>Lorem, ipsum.</td>
+          <td>Lorem, ipsum dolor.</td>
+          <td>9876543210</td>
+          <td>mail@mail.com</td>
+        </tr>
+        <tr>
+          <td>04</td>
+          <td>Lorem, ipsum.</td>
+          <td>Lorem, ipsum dolor.</td>
+          <td>9876543210</td>
+          <td>mail@mail.com</td>
+        </tr>
+        <tr>
+          <td>05</td>
+          <td>Lorem, ipsum.</td>
+          <td>Lorem, ipsum dolor.</td>
+          <td>9876543210</td>
+          <td>mail@mail.com</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <th>Sr No Foot</th>
+          <th>Student Name Foot</th>
+          <th>Course</th>
+          <th>Contact</th>
+          <th>eMail ID</th>
+        </tr>
+      </tfoot>
+    </table>
+
+    <br />
+    <br />
+    <br />
+    <hr />
+    <br />
+    <br />
+    <br />
+
+    <table>
+      <tr>
+        <th rowspan="6">Student Details</th>
+        <th>Sr No</th>
+        <th>Student Name</th>
+        <th>Course</th>
+        <th>Contact</th>
+        <th>eMail ID</th>
+      </tr>
+      <tr>
+        <td>01</td>
+        <td>Lorem, ipsum.</td>
+        <td>Lorem, ipsum dolor.</td>
+        <td>9876543210</td>
+        <td>mail@mail.com</td>
+      </tr>
+      <tr>
+        <td>02</td>
+        <td>Lorem, ipsum.</td>
+        <td>Lorem, ipsum dolor.</td>
+        <td>9876543210</td>
+        <td>mail@mail.com</td>
+      </tr>
+      <tr>
+        <td>03</td>
+        <td>Lorem, ipsum.</td>
+        <td>Lorem, ipsum dolor.</td>
+        <td>9876543210</td>
+        <td>mail@mail.com</td>
+      </tr>
+      <tr>
+        <td>04</td>
+        <td>Lorem, ipsum.</td>
+        <td>Lorem, ipsum dolor.</td>
+        <td>9876543210</td>
+        <td>mail@mail.com</td>
+      </tr>
+      <tr>
+        <td>05</td>
+        <td>Lorem, ipsum.</td>
+        <td>Lorem, ipsum dolor.</td>
+        <td>9876543210</td>
+        <td>mail@mail.com</td>
+      </tr>
+    </table>
+
+    <br />
+    <br />
+    <br />
+    <hr />
+    <br />
+    <br />
+    <br />
+
+    <table>
+      <tr>
+        <th colspan="5">Aplus Edtech Student List</th>
+      </tr>
+      <tr>
+        <th>Sr No</th>
+        <th>Student Name</th>
+        <th>Course</th>
+        <th>Contact</th>
+        <th>eMail ID</th>
+      </tr>
+      <tr>
+        <td>01</td>
+        <td>Lorem, ipsum.</td>
+        <td>Lorem, ipsum dolor.</td>
+        <td>9876543210</td>
+        <td>mail@mail.com</td>
+      </tr>
+      <tr>
+        <td>02</td>
+        <td>Lorem, ipsum.</td>
+        <td>Lorem, ipsum dolor.</td>
+        <td>9876543210</td>
+        <td>mail@mail.com</td>
+      </tr>
+      <tr>
+        <td>03</td>
+        <td>Lorem, ipsum.</td>
+        <td>Lorem, ipsum dolor.</td>
+        <td>9876543210</td>
+        <td>mail@mail.com</td>
+      </tr>
+      <tr>
+        <td>04</td>
+        <td>Lorem, ipsum.</td>
+        <td>Lorem, ipsum dolor.</td>
+        <td>9876543210</td>
+        <td>mail@mail.com</td>
+      </tr>
+      <tr>
+        <td>05</td>
+        <td>Lorem, ipsum.</td>
+        <td>Lorem, ipsum dolor.</td>
+        <td>9876543210</td>
+        <td>mail@mail.com</td>
+      </tr>
+    </table>
+  </body>
+</html>
