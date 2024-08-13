@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Container</title>
+    <style>
+      * {
+        margin: 0px;
+        padding: 0px;
+      }
+      /* h1, p {
+        margin: 10px; */
+      /* } */
+      div {
+        /* fallback font */
+        /* font-family: 'Segoe UI', sans-serif;
+        background-color: red;
+        color: white; */
+        /* margin: x x x x;
+            top, right, bottom, left
+            margin: x x;
+            top / bottom, right / left
+            margin x x x;
+            top right / left bottom
+            margin: x;
+            its for all the sides
+             */
+        /* 
+            working with margins
+            margin: 10px 20px 30px 40px;
+            margin: 10px 50px 20px;
+            margin: 50px 100px; */
+        /* margin: 50px; */
+        /* margin-top: 50px;
+            margin-right: 100px;
+            margin-bottom: 25px;
+            margin-left: 50px; */
+
+        /* working with paddings */
+        /* padding: 10px 20px 30px 40px;
+            padding: 10px 50px 20px;
+            padding: 50px 100px; */
+        /* padding: 50px; */
+        /* padding-top: 50px;
+            padding-right: 100px;
+            padding-bottom: 25px;
+            padding-left: 50px; */
+
+        /* border: 10px solid green; */
+        /* border-top: 10px solid green; */
+        /* border-right: 10px solid green;
+            border-bottom: 10px solid blue;
+            border-left: 10px solid green;
+
+            border-radius: 10px 20px 30px 40px; */
+
+        /* border-radius: 100px;
+
+        outline: 2px dashed black;
+        outline-offset: 10px; */
+      }
+
+      /* positioning */
+
+      div {
+        /* width: 300px; */
+        /* position: absolute; */
+        /* position: absolute; */
+        /* top, right, bottom, left */
+        /* top: 100px; */
+        /* right: 50px;
+        bottom: 50px; */
+      }
+
+      /* .red {
+        background-color: red;
+        z-index: 2;
+      }
+
+      .blue {
+        background-color: blue;
+        top: 150px;
+        left: 100px;
+        z-index: 1;
+      }
+
+      .orange {
+        background-color: orange;
+        top: 200px;
+        left: 150px;
+        z-index: 3;
+      } */
+
+      .outer-container {
+        width: 500px;
+        height: 500px;
+        background-color: red;
+        margin: 300px;
+        position: relative;
+      }
+
+      .inner-container {
+        width: 200px;
+        height: 200px;
+        background-color: green;
+        position: absolute;
+        top: -50px;
+        left: -50px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- div - generic container -->
+
+    <!-- named div / named tags / semantic tags
+     header
+     nav
+     footer
+     aside
+     article
+     section
+       -->
+
+    <!-- <div class="red">
+      <h1>Lorem ipsum dolor sit amet.</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis
+        corrupti dicta, deleniti enim, recusandae fuga minus dolorem voluptates
+        sit doloribus quas, dolore mollitia molestias? Atque laudantium tempora
+        aliquam, eligendi minima tenetur veniam perferendis totam tempore
+        accusamus doloremque eius aperiam nobis mollitia, pariatur, quibusdam et
+        incidunt ex qui hic quo laborum.
+      </p>
+    </div> -->
+
+    <!-- <div class="blue">
+        <h1>Lorem ipsum dolor sit amet.</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis corrupti dicta, deleniti enim, recusandae fuga minus dolorem voluptates sit doloribus quas, dolore mollitia molestias? Atque laudantium tempora aliquam, eligendi minima tenetur veniam perferendis totam tempore accusamus doloremque eius aperiam nobis mollitia, pariatur, quibusdam et incidunt ex qui hic quo laborum.</p>
+    </div>
+
+    <div class="orange">
+        <h1>Lorem ipsum dolor sit amet.</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis corrupti dicta, deleniti enim, recusandae fuga minus dolorem voluptates sit doloribus quas, dolore mollitia molestias? Atque laudantium tempora aliquam, eligendi minima tenetur veniam perferendis totam tempore accusamus doloremque eius aperiam nobis mollitia, pariatur, quibusdam et incidunt ex qui hic quo laborum.</p>
+    </div> -->
+
+    <div class="outer-container" title="Red Box">
+      <div class="inner-container"></div>
+    </div>
+  </body>
+</html>
