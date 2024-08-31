@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="/css/contact-form.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="form-container">
+        <div class="left">
+          <div class="left-content">
+            <h1>Lorem ipsum dolor sit amet.</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt,
+              omnis nam voluptate amet sit aperiam! Odit consequatur possimus
+              facilis quas.
+            </p>
+            <ul>
+              <li>Fb</li>
+              <li>Ig</li>
+              <li>Tw</li>
+              <li>Sc</li>
+              <li>Be</li>
+            </ul>
+          </div>
+        </div>
+        <div class="right">
+          <div class="right-content">
+            <form>
+              <div class="form-element">
+                <label for="fName">Enter your First Name</label>
+                <input type="text" name="fName" id="fName" />
+              </div>
+              <div class="form-element">
+                <label for="lName">Enter your Last Name</label>
+                <input type="text" name="lName" id="lName" />
+              </div>
+              <div class="form-element">
+                <label for="eMail">Enter your eMail</label>
+                <input type="email" name="eMail" id="eMail" />
+              </div>
+              <div class="form-element">
+                <label for="contact">Enter your Contact Number</label>
+                <input type="tel" name="contact" id="contact" />
+              </div>
+              <div class="form-element">
+                <label for="course">Enter your Course</label>
+                <select name="course" id="course">
+                  <option>FrontEnd Development</option>
+                  <option>BackEnd Development</option>
+                  <option>FullStack Development</option>
+                  <option>UI UX Designer</option>
+                  <option>Graphic Designer</option>
+                </select>
+              </div>
+              <div class="form-element submit-button">
+                <label>Choose your learning mode :</label>
+                <span>
+                  <input type="radio" name="mode" id="offline" />
+                  <label for="fName">Offline</label>
+                </span>
+
+                <span>
+                  <input type="radio" name="mode" id="online" />
+                  <label for="fName">Online</label>
+                </span>
+              </div>
+              <div class="form-element">
+                <input type="button" value="Submit Form">
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

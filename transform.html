@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 100px;
+        }
+        .box {
+            width: 100px;
+            height: 100px;
+            position: absolute;
+            z-index: 1;
+            background-color: yellowgreen;
+            transform: scale(1) rotate(0deg);
+            transform-origin: top left;
+            transition: .3s;
+            /* position: relative;
+            left: 50px;
+            top: 50px; */
+            /* transform: translate(50px, 50px);
+            transform: rotate(45deg); */
+            /* transform-origin: top right;
+            transform: translate(250px, 250px) scale(.5) rotate(45deg); */
+        }
+
+        .box:hover {
+            transform: scale(2) rotate(-90deg);
+        }
+
+        .box-content {
+            position: absolute;
+            width: 100px;
+            height: 100px;
+            background-color: tomato;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+
+    </div>
+    <div class="box-content">
+        <p>You have won a scratch card</p>
+    </div>
+</body>
+</html>

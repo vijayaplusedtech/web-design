@@ -1,0 +1,118 @@
+* {
+    /* property : value */
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    list-style: none;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.form-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 20px;
+}
+
+.left {
+    width: 100%;
+    padding: 25px;
+}
+
+.right {
+    width: 100%;
+    padding: 25px 25px 0px 25px;
+}
+
+.left {
+    background-color: tomato;
+    background-image: url('/images/car-benz.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative
+}
+
+.left::after {
+    content: '';
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 99, 71, .25);;
+}
+
+.left-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 20px;
+    position: relative;
+    z-index: 1;
+}
+
+.left-content h1 {
+    font-weight: 400;
+}
+
+.left-content p {
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.left-content ul {
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+}
+
+.left-content ul li {
+    background-color: yellowgreen;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+
+/* styles for the form elements */
+
+.form-element>label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-element input[type=text], .form-element input[type=email], .form-element input[type=tel], .form-element select {
+    width: 100%;
+    height: 40px;
+    margin-bottom: 10px;
+    border: none;
+    border-bottom: 1px solid grey;
+    background-color: rgba(255, 99, 71, .1);
+    padding: 0px 15px;
+}
+
+.submit-button {
+    margin-top: 50px;
+}
+
+.submit-button input {
+    width: 100%;
+    height: 40px;
+    background-color: tomato;
+    color: white;
+    border: none;
+}

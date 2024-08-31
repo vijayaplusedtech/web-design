@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Working with Forms</title>
+  </head>
+  <body>
+    <!-- method : get / post
+    get :  not secure...
+    post : secure...
+
+    forms :
+
+    text field,
+    radio button,
+    checkbox,
+    dropdowns,
+    datalist,
+    color picker,
+    date,
+    file,
+    textarea
+
+    regular expression
+
+    -->
+    <form name="" action="" method="">
+      <label for="fName">Enter your First Name : </label>
+      <!-- <input type="text" name="fName" id="fName" value="Adarsh" placeholder="Enter your First Name" readonly disabled> -->
+
+      <input
+        type="text"
+        name="fName"
+        id="fName"
+        placeholder="Enter your First Name"
+        maxlength="10"
+        required
+      />
+
+      <input
+        type="email"
+        name="fName"
+        id="fName"
+        placeholder="Enter your eMail Id"
+        required
+      />
+
+      <input
+        type="url"
+        name="fName"
+        id="fName"
+        placeholder="Enter your URL"
+        required
+      />
+
+      <input
+        type="tel"
+        name="fName"
+        id="fName"
+        placeholder="(+91) 987 654 3210"
+        maxlength="10"
+      />
+
+      <input type="submit" value="Submit Form" />
+    </form>
+
+    <form>
+      <!-- array[a, b, c, d, e, f] -->
+      <select name="course" id="course">
+        <option value="Select your Stack" selected disabled>
+          Select your Stack
+        </option>
+        <option value="Adobe Photoshop">Adobe Photoshop</option>
+        <option value="Adobe Illustrator">Adobe Illustrator</option>
+        <option value="Figma">Figma</option>
+        <option value="HTML / CSS">HTML / CSS</option>
+        <option value="JavaScript / jQuery">JavaScript / jQuery</option>
+        <option value="MEAN Stack">MEAN Stack</option>
+        <option value="MERN Stack">MERN Stack</option>
+        <option value="MEVN Stack">MEVN Stack</option>
+        <option value="LAMP Stack">LAMP Stack</option>
+        <option value="JAM Stack">JAM Stack</option>
+      </select>
+
+      <hr />
+
+      <input type="text" list="stack" name="" id="" />
+
+      <datalist id="stack">
+        <option value="Adobe Photoshop">Adobe Photoshop</option>
+        <option value="Adobe Illustrator">Adobe Illustrator</option>
+        <option value="Figma">Figma</option>
+        <option value="HTML / CSS">HTML / CSS</option>
+        <option value="JavaScript / jQuery">JavaScript / jQuery</option>
+        <option value="MEAN Stack">MEAN Stack</option>
+        <option value="MERN Stack">MERN Stack</option>
+        <option value="MEVN Stack">MEVN Stack</option>
+        <option value="LAMP Stack">LAMP Stack</option>
+        <option value="JAM Stack">JAM Stack</option>
+      </datalist>
+    </form>
+
+    <hr />
+
+    <form>
+      <!-- <input type="checkbox" name="tool" value="Adobe Photoshop" id="ps" /><label for="ps">Adobe Photoshop</label><br>
+      <input type="checkbox" name="tool" value="Adobe Illustrator" id="ai" /><label for="ai">Adobe Illustrator</label><br>
+      <input type="checkbox" name="tool" value="Figma" id="fig" /><label for="fig">Figma</label><br>
+      <input type="checkbox" name="tool" value="HTML / CSS" id="html" /><label for="html">HTML / CSS</label><br>
+      <input type="checkbox" name="tool" value="JavaScript / jQuery" id="js" /><label for="js">JavaScript / jQuery</label><br> -->
+
+      <br><br><br><br>
+
+      <!-- <input type="radio" name="select-tool" value="Adobe Photoshop" id="ps" /><label for="ps">Adobe Photoshop</label><br>
+      <input type="radio" name="select-tool" value="Adobe Illustrator" id="ai" /><label for="ai">Adobe Illustrator</label><br>
+      <input type="radio" name="select-tool" value="Figma" id="fig" /><label for="fig">Figma</label><br>
+      <input type="radio" name="select-tool" value="HTML / CSS" id="html" /><label for="html">HTML / CSS</label><br>
+      <input type="radio" name="select-tool" value="JavaScript / jQuery" id="js" /><label for="js">JavaScript / jQuery</label> -->
+    </form>
+
+    <form>
+        <input type="color" name="" id="">
+        <input type="date" name="" id="">
+        <input type="datetime" name="" id="">
+        <input type="datetime-local" name="" id="">
+        <input type="file" name="" id="">
+        <input type="number" name="" id="">
+        <br>
+        <br><br><br>
+        <input type="text" name="" id="">
+        <input type="password" name="" id="">
+
+        <br><br><br>
+
+        <textarea placeholder="Enter your Feedbacks" name="" id="" rows="10" cols="25">
+
+        </textarea>
+    </form>
+  </body>
+</html>
